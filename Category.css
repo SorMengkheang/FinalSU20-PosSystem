@@ -1,0 +1,127 @@
+
+/* End */
+.card {
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-body h5 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.card-body p {
+    margin-bottom: 0.5rem;
+}
+
+.card-body a {
+    font-size: 0.9rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btnEdit{
+    color: #000000;
+    font-family:Arial, sans-serif;
+    width:80px;
+    height: 35px;
+    font-size:15px;
+    background: none;
+    border: 2px solid #2196f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnDelete{
+    color: #000000;
+    font-family:Arial, sans-serif;
+    width:80px;
+    height: 35px;
+    font-size:15px;
+    background: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btnEdit{
+    color: #000000;
+    font-family:Arial, sans-serif;
+    width:80px;
+    height: 35px;
+    font-size:15px;
+    background: none;
+    border: 2px solid #2196f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnDelete{
+    color: #000000;
+    font-family:Arial, sans-serif;
+    width:80px;
+    height: 35px;
+    font-size:15px;
+    background: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#editPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+}
+
+#editPopup div {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#editForm input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#editForm button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#editForm button[type="button"] {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+

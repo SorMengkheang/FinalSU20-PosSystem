@@ -1,0 +1,166 @@
+
+/* End */
+.card {
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-body h5 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.card-body p {
+    margin-bottom: 0.5rem;
+}
+
+.card-body a {
+    font-size: 0.9rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btnEdit{
+    color: #000000;
+    font-family:Arial, sans-serif;
+    width:80px;
+    height: 35px;
+    font-size:15px;
+    background: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnDelete{
+    color: #000000;
+    font-family:Arial, sans-serif;
+    width:80px;
+    height: 35px;
+    font-size:15px;
+    background: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Styles */
+.btnEdit {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    background: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnDelete {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    background: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Popup Styles */
+#editOrderPopup {
+    display: none;
+    position: fixed; /* Use fixed positioning for centering */
+    top: 50%; /* Position at 50% from the top */
+    left: 50%; /* Position at 50% from the left */
+    transform: translate(-50%, -50%); /* Center perfectly */
+    width: 95%; /* Take up most of the screen width */
+    max-width: 300px; /* Limit the maximum width */
+    background-color: rgba(0, 0, 0, 0.311);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+#editOrderPopup div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%; /* Make the inner div take full width of the popup */
+}
+
+#editOrderPopup h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Form Input Styles */
+#editOrderForm label {
+    font-size: 14px;
+    margin-bottom: 3px;
+    display: block;
+    width: 100%;
+}
+
+#editOrderForm input,
+#editOrderForm textarea {
+    width: calc(100% - 12px);
+    padding: 6px;
+    margin: 3px 0;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+.btnEdit, .btnDelete {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    width: auto;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.btnEdit {
+    border-color: green;
+    margin-right: 5px;
+}
+
+.btnDelete {
+    border-color: red;
+}
+
+/* Additional Button Customizations for Cancel */
+#editOrderForm button[type="button"] {
+    background-color: #f44336;
+    margin-left: 0;
+}
+
+
+
